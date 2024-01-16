@@ -97,3 +97,55 @@ font-size: 16px;
     border:10px solid red;
     width: 30%;
 }
+.part-three{
+    border: 2px solid red;
+    min-height: 60px;
+   /* width: 50%;*/
+    margin-top: 20px;
+    width: 1440px;
+    height: 6940px;
+    
+}
+.img-container .img-m{
+    background-image: url('../Images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+   /* background-position: center;*/
+   /*min-height: 400px;*/
+   width: 573px;
+height: 300px;
+flex-shrink: 0;
+   
+}
+.img-container  .img-indo{
+    background-image: url('../Images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    /*background-position: center;*/
+  /*  min-height: 400px;*/
+    width: 573px;
+height: 300px;
+flex-shrink: 0;
+   
+}
+.img-container{
+    border-radius: 16px;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    padding: 135px;
+/*background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url(<path-to-image>), lightgray 50% / cover no-repeat;*/
+}
+.third-text{
+    text-align: center;
+    margin:0 auto;
+}
+.three{
+    background-image: url('../Images/Rectangle\ 4.png');
+    background-repeat: no-repeat; 
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+}
+.full-banner{
+    display: flex;
+    gap: 20px;
+}
