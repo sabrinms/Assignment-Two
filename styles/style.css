@@ -87,15 +87,25 @@ font-size: 16px;
     justify-content: center;
 }
 .part-two{
-    border: 10px solid red;
+    border: 2px solid red;
     min-height: 70px;
     margin-top: 20px;
-    width: 70%;
+    width: 45%;
     display: flex;
+    gap:20px;
+    padding: 135px;
+  
+}
+.img-one{
+    width: 540px;
+height: 550px;
+flex-shrink: 0;
+border-radius: 16px;
+border: 2px solid blueviolet;
 }
 .head-text{
-    border:10px solid red;
-    width: 30%;
+    border:5px solid blue;
+    width: 40%;
 }
 .part-three{
     border: 2px solid red;
