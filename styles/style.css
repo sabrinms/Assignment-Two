@@ -1,4 +1,99 @@
+
+body{
+
+}
+
 *{
     margin: 0;
     padding: 0;
+}
+.nav-one{
+    border:2px solid blue ;
+    min-height: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+    text-align: center;
+    margin: 0 auto;
+}
+.texts-container{
+    display: flex;
+}
+.head-tag{
+  /*width: 50px;*/
+  padding: 15px;
+  margin: 0 auto;
+ font-size: 36px;
+
+}
+.items-container a{
+    text-decoration: none;
+    margin: 44px;
+    justify-content: center;
+}
+.head-tag .tt{
+    color: #FF5400;
+
+}
+.items-container a  .hh{
+    color: #FF5400;
+}
+.items-container{
+    padding: 10px 0px;
+justify-content: center;
+align-items: center;
+}
+/*part-one  section style*/
+.part-one{
+    border: 3px solid blue;
+    min-height: 400px;
+    margin-top: 20px;
+  /*  width: 70%;*/
+    background-image: url('../Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    width: 1100px;
+    
+   /* margin:0 auto;*/
+}
+.section-head{
+    text-align: center;
+    padding: 10px;
+}
+/*.btn-items{
+    text-align: center;
+    margin: o auto;
+    padding: 10px;
+    margin-top: 24px;
+}*/
+.btn-list >li{
+    display: flex;
+    margin: 24px;
+    text-align: center;
+    font-size: 16px;
+
+}
+.btn-last{
+    border-radius: 8px;
+background: #FF5400;
+font-size: 16px;
+}
+
+.btn-items >ul {
+    text-align: center;
+    margin: o auto;
+    padding: 10px;
+    margin-top: 24px;
+    display: flex;
+    justify-content: center;
+}
+.part-two{
+    border: 10px solid red;
+    min-height: 70px;
+    margin-top: 20px;
+    width: 70%;
+    display: flex;
+}
+.head-text{
+    border:10px solid red;
+    width: 30%;
 }
